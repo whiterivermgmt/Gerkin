@@ -72,7 +72,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
 }) => {
   return (
     <section className="bg-gray-50 py-16">
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-5xl font-extrabold text-gray-900 mb-4">{headerTitle}</h2>
@@ -111,7 +111,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
                         href={btn.href}
                         className={`flex-1 px-5 py-3 rounded-lg text-sm font-semibold text-white text-center transition-all duration-300 whitespace-nowrap ${
                           btn.variant === "red"
-                            ? "bg-gradient-to-r from-red-700 to-red-500 hover:opacity-90"
+                            ? "bg-linear-to-r from-red-700 to-red-500 hover:opacity-90"
                             : "bg-gray-400 hover:bg-gray-500"
                         }`}
                         onClick={(e) => e.stopPropagation()} // Prevent card click from overriding button

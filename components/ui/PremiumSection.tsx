@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const PremiumSection = () => {
   return (
     <section className="bg-white dark:bg-gray-900 overflow-hidden py-20 lg:py-32">
-      <div className="max-w-screen-xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-24 items-center">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-24 items-center">
         {/* Image with larger desktop size */}
         <motion.img
           src="/gallery/gallery8.jpg"
@@ -60,8 +60,8 @@ const PremiumSection = () => {
 
           {/* CTA Button */}
           <motion.a
-            href="#financing"
-            className="inline-block bg-gradient-to-r from-red-800 to-red-600 text-white font-bold rounded-2xl text-lg px-8 py-4 shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300"
+            href="/financing"
+            className="inline-block bg-linear-to-r from-red-800 to-red-600 text-white font-bold rounded-2xl text-lg px-8 py-4 shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.8 }}

@@ -70,23 +70,35 @@ const SideMenu: FC<SidebarProps> = ({ isOpen, onClose }) => {
 
             return (
               <div key={item.title} className="w-full">
-                <div
-                  className={`flex justify-between items-center w-full px-4 py-4 text-lg font-semibold rounded-lg cursor-pointer transition-colors duration-300 ${
-                    isActive
-                      ? "bg-red-100 text-red-700"
-                      : "hover:bg-red-50 hover:text-red-700"
-                  }`}
-                  onClick={() => (hasSubmenu ? toggleSubmenu(idx) : onClose())}
-                >
-                  <span className="text-lg">{item.title}</span>
-                  {hasSubmenu && (
+                {hasSubmenu ? (
+                  <div
+                    className={`flex justify-between items-center w-full px-4 py-4 text-lg font-semibold rounded-lg cursor-pointer transition-colors duration-300 ${
+                      isActive
+                        ? "bg-red-100 text-red-700"
+                        : "hover:bg-red-50 hover:text-red-700"
+                    }`}
+                    onClick={() => toggleSubmenu(idx)}
+                  >
+                    <span className="text-lg">{item.title}</span>
                     <ChevronDown
                       className={`w-5 h-5 transition-transform duration-300 ${
                         openIndex === idx ? "rotate-180" : "rotate-0"
                       }`}
                     />
-                  )}
-                </div>
+                  </div>
+                ) : (
+                  <Link href={item.href} onClick={onClose}>
+                    <div
+                      className={`flex justify-between items-center w-full px-4 py-4 text-lg font-semibold rounded-lg cursor-pointer transition-colors duration-300 ${
+                        isActive
+                          ? "bg-red-100 text-red-700"
+                          : "hover:bg-red-50 hover:text-red-700"
+                      }`}
+                    >
+                      <span className="text-lg">{item.title}</span>
+                    </div>
+                  </Link>
+                )}
 
                 {/* Submenu Animation */}
                 <AnimatePresence>
@@ -136,7 +148,8 @@ const SideMenu: FC<SidebarProps> = ({ isOpen, onClose }) => {
             ))}
           </div>
 
-          <Link href="/">
+          {/* Logo with onClose */}
+          <Link href="/" onClick={onClose}>
             <Image
               src="/logo/logofooter.png"
               alt="Footer Logo"

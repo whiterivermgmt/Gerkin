@@ -42,7 +42,7 @@ const HeroSlideshow: React.FC = () => {
             src={src}
             alt={`Gallery ${idx + 1}`}
             fill
-            className="object-cover object-center transition-transform duration-[7000ms] ease-in-out scale-105"
+            className="object-cover object-center transition-transform duration-7000 ease-in-out scale-105"
           />
           <div className="absolute inset-0 bg-black/30"></div>
         </div>

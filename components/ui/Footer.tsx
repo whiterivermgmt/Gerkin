@@ -162,7 +162,7 @@ const Footer = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="px-5 py-2 bg-gradient-to-r from-[#7a0000] to-[#b30000] text-white rounded-lg text-sm font-medium hover:from-[#b30000] hover:to-[#e60000] transition disabled:opacity-60"
+                  className="px-5 py-2 bg-linear-to-r from-[#7a0000] to-[#b30000] text-white rounded-lg text-sm font-medium hover:from-[#b30000] hover:to-[#e60000] transition disabled:opacity-60"
                 >
                   {loading ? "Sending..." : "Request Now"}
                 </button>
