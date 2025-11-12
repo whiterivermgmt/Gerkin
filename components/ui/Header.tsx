@@ -22,26 +22,26 @@ const Header = () => {
           className="flex items-center justify-between py-4 md:py-6 lg:px-16"
         >
           {/* Left: Mobile menu button + Logo */}
-          <div className="flex items-center w-auto md:w-1/3 justify-between md:justify-start gap-4 md:gap-6">
-            {/* Logo (on mobile left) */}
+          <div className="flex items-center gap-4 md:gap-6 w-auto md:w-1/3">
+            {/* Mobile Menu Button */}
+<div
+  className="md:hidden cursor-pointer hover:text-shop-orange transition-colors"
+  onClick={openSidebar} // only click opens the menu
+>
+  <AlignLeft className="w-6 h-6" />
+</div>
+
+
             <Logo />
-
-            {/* Desktop menu is hidden on mobile */}
-            <div className="hidden md:flex w-full md:w-1/3 justify-center">
-              <HeaderMenu />
-            </div>
-
-            {/* Mobile menu button (on mobile right) */}
-            <div
-              className="md:hidden ml-auto cursor-pointer hover:text-shop-orange transition-colors"
-              onClick={openSidebar}
-            >
-              <AlignLeft className="w-6 h-6" />
-            </div>
           </div>
 
-          {/* Center: Contact button on mobile */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 md:static md:flex md:justify-end md:w-1/3">
+          {/* Center: Desktop menu */}
+          <div className="hidden md:flex w-full md:w-1/3 justify-center">
+            <HeaderMenu />
+          </div>
+
+          {/* Right: Contact button */}
+          <div className="flex items-center justify-end gap-4 md:gap-6 w-auto md:w-1/3">
             <Contactbutton />
           </div>
         </Container>
