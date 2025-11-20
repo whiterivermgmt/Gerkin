@@ -36,13 +36,13 @@ export default function GalleryPage() {
 
   return (
     <div className="max-w-7xl mx-auto p-6 space-y-12">
-      {/* Title */}
+      {/* Title with extra top margin */}
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="text-5xl font-bold text-center"
+        className="text-5xl font-bold text-center mt-20" // Added mt-20 to push down
       >
         Gallery
       </motion.h1>
@@ -122,7 +122,8 @@ export default function GalleryPage() {
           </motion.div>
         )}
       </AnimatePresence>
-                <QuickEstimate />
+
+      <QuickEstimate />
     </div>
   );
 }
