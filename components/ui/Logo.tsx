@@ -19,7 +19,7 @@ const Logo = () => {
           alt="Gerkin Construction Logo"
           width={240} // slightly larger base width
           height={80}
-          className="w-[120px] sm:w-[160px] md:w-[200px] lg:w-[240px] h-auto" // responsive scaling
+          className="w-[100px] sm:w-[140px] md:w-[170px] lg:w-[200px] h-auto" // responsive scaling
           priority
         />
       </motion.div>
