@@ -5,14 +5,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const galleryImages = [
-  "/gallery/gallery1.jpg",
-  "/gallery/gallery2.jpg",
-  "/gallery/gallery13.jpg",
-  "/gallery/gallery4.jpg",
-  "/gallery/gallery15.jpg",
-  "/gallery/gallery16.jpg",
-  "/gallery/gallery7.jpg",
-  "/gallery/gallery8.jpg",
+  "/gallery/image2.jpg",
+  "/gallery/image11.jpg",
+  "/gallery/image5.jpg",
+  "/gallery/image16.jpg",
+  "/gallery/image8.jpg",
+  "/gallery/image30.jpg",
+  "/gallery/image21.jpg",
+  "/gallery/image30.jpg",
 ];
 
 const HomeGallery = () => {

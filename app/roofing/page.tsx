@@ -18,12 +18,12 @@ const roofingSections = [
   {
     title: "Commercial Roofing",
     text: "Gerkin Construction provides comprehensive roofing solutions for commercial properties of all sizes. From flat and metal roofs to modern architectural designs, we handle each project with expert planning, timely execution, and minimal disruption to your business operations. Our focus is on durability, safety, and long-term performance, keeping your commercial property protected and professional-looking.",
-    img: "/gallery/gallery2.jpg",
+    img: "/gallery/image50.jpg",
   },
   {
     title: "Roof Repairs & Maintenance",
     text: "We offer fast, reliable roof repair and maintenance services to address leaks, storm damage, or general wear and tear. Our team inspects every roof thoroughly, applies the right solutions, and ensures each repair is done to last. Regular maintenance and timely repairs extend your roof’s life, prevent costly damage, and maintain the value and safety of your home or business.",
-    img: "/gallery/gallery3.jpg",
+    img: "/gallery/image9.jpg",
   },
   {
     title: "Custom Roof Solutions",
@@ -37,7 +37,7 @@ export default function RoofingPage() {
     <div className="space-y-32">
       {/* Hero Banner */}
       <HeroBanner
-        heroImage="/gallery/gallery9.jpg"
+        heroImage="/gallery/image11.jpg"
         title="Reliable Roofing, Built to Last"
         subtitle="From residential to commercial projects, Gerkin Construction provides expert roofing services that protect your home or business."
         primaryButtonText="Get a Quote"

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { SiFacebook, SiGoogle, SiYelp } from "react-icons/si";
 import { cn } from "@/lib/utils";
 
-const footerImage = "/footer/footer.png";
+const footerImage = "/gallery/image10.jpg";
 
 const socialLinks = [
   { title: "Facebook", href: "https://www.facebook.com/Gerkin-Construction-LLC-100093552122319/", icon: <SiFacebook className="w-5 h-5" /> },
@@ -67,7 +67,7 @@ export default function ContactPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${footerImage})` }}
         />
-        <div className="absolute inset-0 pointer-events-none bg-black/30"></div>
+        <div className="absolute inset-0 pointer-events-none bg-black/80"></div>
 
         <Container className="relative max-w-6xl mx-auto z-10">
           <motion.div

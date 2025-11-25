@@ -25,7 +25,7 @@ interface ServicesSectionProps {
 const defaultServices: Service[] = [
   {
     title: "Roofing",
-    image: "/gallery/gallery1.jpg",
+    image: "/gallery/image3.jpg",
     description:
       "Expert roofing services for residential and commercial properties. We handle installations, replacements, and roof repairs with precision and care.",
     buttons: [
@@ -35,7 +35,7 @@ const defaultServices: Service[] = [
   },
   {
     title: "Siding",
-    image: "/gallery/gallery2.jpg",
+    image: "/gallery/image32.jpg",
     description:
       "Protect your home with high-quality siding installations. We offer vinyl, James Hardie, and custom siding solutions for every home.",
     buttons: [
@@ -55,7 +55,7 @@ const defaultServices: Service[] = [
   },
   {
     title: "Repairs",
-    image: "/gallery/gallery4.jpg",
+    image: "/gallery/image17.jpg",
     description:
       "Comprehensive home repair services including roof patching, siding fixes, and general exterior maintenance to keep your property in top shape.",
     buttons: [

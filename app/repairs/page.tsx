@@ -35,7 +35,7 @@ export default function RepairsPage() {
     <div className="space-y-32">
       {/* Hero Banner */}
       <HeroBanner
-        heroImage="/gallery/gallery29.jpg"
+        heroImage="/gallery/image51.jpg"
         title="Reliable Repairs for a Stronger Home"
         subtitle="Gerkin Construction provides expert repairs for roofs, siding, windows, doors, and emergency situations to keep your home safe and functional."
         primaryButtonText="Get a Quote"

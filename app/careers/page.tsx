@@ -32,7 +32,7 @@ const CareersPage = () => {
     <>
       {/* Hero Banner */}
       <HeroBanner
-        heroImage="/gallery/gallery1.jpg"
+        heroImage="/gallery/image12.jpg"
         title="Join Our Team"
         subtitle="Build your career with Gerkin Construction, Bedford's trusted roofing and home repair experts."
         primaryButtonText="Apply Now"

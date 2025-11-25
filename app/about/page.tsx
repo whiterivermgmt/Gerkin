@@ -38,7 +38,7 @@ export default function AboutPage() {
 
       {/* Hero Banner */}
       <HeroBanner
-        heroImage="/gallery/gallery18.jpg"
+        heroImage="/gallery/image10.jpg"
         title="Welcome to Gerkin Construction"
         subtitle="Your trusted experts in roofing, siding, gutters, and home repairs in Bedford, IN."
         primaryButtonText="Get a Quote"

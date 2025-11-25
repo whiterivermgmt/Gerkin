@@ -6,11 +6,12 @@ import Link from "next/link";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const images = [
-  "/gallery/gallery12.jpg",
-  "/gallery/gallery11.jpg",
-  "/gallery/gallery15.jpg",
-  "/gallery/gallery10.jpg",
-  "/gallery/gallery14.jpg",
+  "/gallery/image12.jpg",
+  "/gallery/image11.jpg",
+  "/gallery/image15.jpg",
+  "/gallery/image16.jpg",
+  "/gallery/image28.jpg",
+  "/gallery/image30.jpg",
 ];
 
 const HeroSlideshow: React.FC = () => {
