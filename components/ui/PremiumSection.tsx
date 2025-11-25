@@ -9,7 +9,7 @@ const PremiumSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-24 items-center">
         {/* Image with larger desktop size */}
         <motion.img
-          src="/gallery/gallery8.jpg"
+          src="/gallery/image6.jpg"
           alt="Gerkin Construction exterior"
           className="w-full md:w-[110%] rounded-3xl shadow-2xl object-cover mx-auto"
           initial={{ y: 20, opacity: 0 }}
