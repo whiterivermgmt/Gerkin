@@ -8,9 +8,9 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const images = [
   "/gallery/gallery12.jpg",
   "/gallery/gallery11.jpg",
-  "/gallery/gallery3.jpg",
-  "/gallery/gallery7.jpg",
-  "/gallery/gallery5.jpg",
+  "/gallery/gallery15.jpg",
+  "/gallery/gallery10.jpg",
+  "/gallery/gallery14.jpg",
 ];
 
 const HeroSlideshow: React.FC = () => {

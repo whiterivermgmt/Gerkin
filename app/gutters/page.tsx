@@ -12,7 +12,7 @@ const gutterSections = [
   {
     title: "Gutter Installation",
     text: "Properly installed gutters are essential for protecting your home’s foundation, siding, and landscaping. At Gerkin Construction, we measure, plan, and install seamless gutters that efficiently channel water away from your property. Using high-quality materials, our installations are designed to last, preventing leaks, clogs, and costly damage while maintaining a clean, polished look for your home.",
-    img: "/services/gutters/gutter1.jpg",
+    img: "/services/gutters/gutter5.jpg",
   },
   {
     title: "Gutter Repairs",
@@ -36,7 +36,7 @@ export default function GuttersPage() {
     <div className="space-y-32">
       {/* Hero Banner */}
       <HeroBanner
-        heroImage="/services/gutter.webp"
+        heroImage="/services/gutters/gutter5.jpg"
         title="Seamless Gutters for Lasting Protection"
         subtitle="Gerkin Construction delivers professional gutter installation, repair, and maintenance services to keep your home safe and stylish."
         primaryButtonText="Get a Quote"

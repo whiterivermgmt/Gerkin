@@ -9,7 +9,7 @@ const FinancingPage = () => {
     <>
       {/* Hero Banner for Financing */}
       <HeroBanner
-        heroImage="/gallery/gallery6.jpg"
+        heroImage="/gallery/gallery23.jpg"
         title="Financing"
         subtitle="All of our roofing and construction services are eligible for financing through Service Finance Company — making it simple to protect and improve your home when it matters."
         primaryButtonText="Get a Quote"

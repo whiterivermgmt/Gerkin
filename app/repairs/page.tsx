@@ -11,7 +11,7 @@ const repairSections = [
   {
     title: "Roof Repairs",
     text: "A damaged roof can compromise your home’s safety and comfort. Our team inspects every issue, from missing shingles to leaks, and provides precise repairs that restore protection and prevent future problems. We use quality materials and expert techniques to ensure your roof performs at its best, no matter the weather.",
-    img: "/services/repair/repair3.jpg",
+    img: "/gallery/gallery25.jpg",
   },
   {
     title: "Siding Repairs",
@@ -35,7 +35,7 @@ export default function RepairsPage() {
     <div className="space-y-32">
       {/* Hero Banner */}
       <HeroBanner
-        heroImage="/gallery/gallery1.jpg"
+        heroImage="/gallery/gallery29.jpg"
         title="Reliable Repairs for a Stronger Home"
         subtitle="Gerkin Construction provides expert repairs for roofs, siding, windows, doors, and emergency situations to keep your home safe and functional."
         primaryButtonText="Get a Quote"

@@ -45,7 +45,7 @@ const defaultServices: Service[] = [
   },
   {
     title: "Gutters",
-    image: "/services/gutter.webp",
+    image: "/services/gutters/gutter5.jpg",
     description:
       "Keep your home safe from water damage with professionally installed and maintained gutter systems. Seamless gutters, downspouts, and repairs.",
     buttons: [
