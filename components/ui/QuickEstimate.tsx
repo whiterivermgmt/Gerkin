@@ -55,7 +55,7 @@ const QuickEstimate = () => {
           {/* Image */}
           <div className="md:w-1/2 w-full aspect-[16/9] md:h-[400px] relative rounded-2xl overflow-hidden shadow-md">
             <Image
-              src="/gallery/gallery2.jpg"
+              src="/gallery/image37.jpg"
               alt="Roofing Estimate"
               fill
               className="object-cover"
@@ -63,31 +63,35 @@ const QuickEstimate = () => {
             />
           </div>
 
-          {/* Text & Buttons */}
-          <div className="md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Get Your Quick Estimate
-            </h2>
-            <p className="text-gray-600">
-              Fill out a short form to receive a fast, accurate estimate for your roofing project.
-            </p>
-
-            <div className="flex flex-wrap justify-center md:justify-start gap-4">
+                      {/* Text & Buttons */}
+            <div className="md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left">
               <button
                 onClick={() => setIsOpen(true)}
-                className="px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg font-semibold hover:opacity-90 transition"
+                className="text-3xl sm:text-4xl font-bold text-gray-900 text-left cursor-pointer hover:underline focus:outline-none"
               >
-                Quick Estimate
+                Get Your Quick Estimate
               </button>
 
-              <Link
-                href="/contact"
-                className="px-6 py-3 border-2 border-red-600 text-red-600 rounded-lg font-semibold hover:bg-red-50 transition"
-              >
-                Contact Us
-              </Link>
+              <p className="text-gray-600">
+                Fill out a short form to receive a fast, accurate estimate for your roofing project.
+              </p>
+
+              <div className="flex flex-wrap justify-center md:justify-start gap-4">
+                <button
+                  onClick={() => setIsOpen(true)}
+                  className="cursor-pointer px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg font-semibold hover:opacity-90 transition"
+                >
+                  Quick Estimate
+                </button>
+
+                <Link
+                  href="/contact"
+                  className="cursor-pointer px-6 py-3 border-2 border-red-600 text-red-600 rounded-lg font-semibold hover:bg-red-50 transition"
+                >
+                  Contact Us
+                </Link>
+              </div>
             </div>
-          </div>
         </motion.div>
       </section>
 
